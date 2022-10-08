@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Employee Regestration</title>
+	</head>
+<body>
+	<form method="GET" action="https://google.com">
+		<h1>Employee Regestration</h1>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<table>
+				<tr>
+					<td>Employee Id</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" pattern="[0-9]{4}" required></td>
+				</tr>
+
+				<tr>
+					<td>Employee Name</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" required></td>
+				</tr>
+
+				<tr>
+					<td>Email Id</td>
+					<td>:&nbsp;</td>
+					<td><input type="email" required></td>
+				</tr>
+
+				<tr>
+					<td>Contact Number</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" pattern="[6789][0-9][10]" required></td>
+				</tr>
+
+				<tr>
+					<td>Maritial Status</td>
+					<td>:&nbsp;</td>
+					<td>
+						<input type="radio" name="maritalStatus" checked>Married&nbsp;
+						<input type="radio" name="maritalStatus">Single&nbsp;
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+<br>
+		<fieldset>
+			<legend>Education / Experiance</legend>
+			<table>
+				<tr>
+					<td>Education</td>
+					<td>:&nbsp;</td>
+					<td><textarea required></textarea></td>
+				</tr>
+
+				<tr>
+					<td>Experiance</td>
+					<td>:&nbsp;</td>
+					<td><textarea required></textarea></td>
+				</tr>
+			</table>
+		</fieldset>
+<br>
+		<fieldset>
+			<legend>Job Details</legend>
+			<table>
+				<tr>
+					<td>Designation</td>
+					<td>:&nbsp;</td>
+					<td><textarea required></textarea></td>
+				</tr>
+
+				<tr>
+					<td>Job Location</td>
+					<td>:&nbsp;</td>
+					<td>
+						<select>
+							<option selected>Rajkot</option>
+							<option>Bhavnagar</option>
+							<option>Junagadha</option>
+							<option>Baroda</option>
+							<option>Surat</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Salary</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" pattern="[0-9][5]" required></td>
+				</tr>
+			</table>
+		</fieldset><br>&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="Submit" value="Submit" name="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button>Cancle</button>
+	</form>
+</body>
+</html>
