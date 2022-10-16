@@ -1,0 +1,27 @@
+/* CSS Style */
+body{
+    background-color: #f0f4c3;
+}
+#main_name{
+    color: #43a047;
+    font-size: 36px;
+    font-weight: bold;
+}
+.name_all{
+    color: #cc7b03;
+    font-size: 22px;
+    padding: 10px;
+}
+.button{    
+    color: #9d6005;
+    background-color: #c0ca33ba;
+    padding: 9px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 23px;
+}
+.button:hover{
+    background-color: #9d6005;
+    color: #c0ca33ba;
+}

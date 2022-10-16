@@ -1,0 +1,40 @@
+/* CSS Style */
+body{
+    background-color: #b3e5fc;
+}
+
+#main_name{
+    color: #047f8f;
+    font-size: 45px;
+}
+
+.name_all{
+    color: #0c9ee0;
+    font-size: 18px;
+}
+
+.legend_name{
+    color: #6473c4;
+    font-size: 23px;
+    font-weight: bold;
+}
+.fieldSet{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.button_all{  
+    color: #ffeb3b;
+    background-color: #3f51b56e;
+    padding: 10px 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 23px;
+}
+.button_all:hover{
+    color: #3f51b56e;
+    background-color: #ffeb3b;
+}
+    

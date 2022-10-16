@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>Student Registration</title>
+		<link rel="stylesheet" href="regestrationStyle.css">
+	</head>
+<body>
+	<form method="GET" action="https://google.com">
+		<h1 id="hadding" align = "center">Student Regestration</h1>
+		<table id="main_table" align="center">
+			<tr>
+				<td class="name_all">Full Name</td>
+				<td>:&nbsp;</td>
+				<td><input type="name" placeholder="Enter full name" required ></td>
+			</tr>
+
+			<tr>
+				<td class="name_all">Email</td>
+				<td>:&nbsp;</td>
+				<td><input type="email" placeholder="Enter email" required></td>
+			</tr>
+
+			<tr>
+				<td class="name_all">Mobile Number</td>
+				<td>:&nbsp;</td>
+				<td><input type="text" placeholder="Enter mobile number" pattern="[6789][0-9]{9}" required></td>
+			</tr>
+
+			<tr>
+				<td class="name_all">Address</td>
+				<td>:&nbsp;</td>
+				<td><textarea name="Address" placeholder="Enter address" required></textarea></td>
+			</tr>
+
+			<tr>
+				<td class="name_all">Nationality</td>
+				<td>:&nbsp;</td>
+				<td>
+					<select>
+						<option selected>India</option>
+						<option>U.S.A.</option>
+						<option>U.K.</option>
+						<option>Austrellia</option>
+						<option>Japan</option>
+						<option>Pakistan</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="name_all">Date Of Birth</td>
+				<td>:&nbsp;</td>
+				<td><input type="date" required></td>
+			</tr>
+
+			<tr>
+				<td class="name_all">Gender</td>
+				<td>:&nbsp;</td>
+				<td>
+					<input type="radio" name="gender" checked>&nbsp;Male
+					<input type="radio" name="gender">&nbsp;Female
+					<input type="radio" name="gender">&nbsp;Other
+				</td>
+			</tr>
+
+			<tr>
+				<td class="name_all">Highest Degree</td>
+				<td>:&nbsp;</td>
+				<td><input type="text" required></td>
+			</tr>
+
+			<tr>
+				<td class="name_all">CPI / Persentage</td>
+				<td>:&nbsp;</td>
+				<td><input type="text" pattern="[0-9]" required></td>
+			</tr>
+
+			<tr>
+				<td class="name_all">University </td>
+				<td>:&nbsp;</td>
+				<td><input type="text" required>
+			</tr>
+
+			<tr>
+				<td class="name_all">Passing Year</td>
+				<td>:&nbsp;</td>
+				<td>
+					<select>
+						<option>2019-2020</option>
+						<option>2020-2021</option>
+						<option>2021-2022</option>
+						<option selected>2022-2023</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" name="Submit" value="Submit" class="button"></td>
+				<td>&nbsp;</td>
+				<td><button class="button">Cancle</button></td>
+			</tr>
+		</table>	
+	</form>
+</body>
+</html>

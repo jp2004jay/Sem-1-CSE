@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Employee Regestration</title>
+		<link rel="stylesheet" href="empolyee.css">
+	</head>
+<body>
+	<form method="GET" action="https://google.com">
+		<h1 align=" center" id="main_name">Employee Regestration</h1>
+		<fieldset class="fieldSet">
+			<legend class="legend_name">Personal Information</legend>
+			<table align="center">
+				<tr>
+					<td class="name_all">Employee Id</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" pattern="[0-9]{4}" required></td>
+				</tr>
+
+				<tr>
+					<td class="name_all">Employee Name</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" required></td>
+				</tr>
+
+				<tr>
+					<td class="name_all">Email Id</td>
+					<td>:&nbsp;</td>
+					<td><input type="email" required></td>
+				</tr>
+
+				<tr>
+					<td class="name_all">Contact Number</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" pattern="[6789][0-9][10]" required></td>
+				</tr>
+
+				<tr>
+					<td class="name_all">Maritial Status</td>
+					<td>:&nbsp;</td>
+					<td>
+						<input type="radio" name="maritalStatus" checked>Married&nbsp;
+						<input type="radio" name="maritalStatus">Single&nbsp;
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+<br>
+		<fieldset class="fieldSet">
+			<legend class="legend_name">Education / Experiance</legend>
+			<table align="center">
+				<tr>
+					<td class="name_all">Education</td>
+					<td>:&nbsp;</td>
+					<td><textarea required></textarea></td>
+				</tr>
+
+				<tr>
+					<td class="name_all">Experiance</td>
+					<td>:&nbsp;</td>
+					<td><textarea required></textarea></td>
+				</tr>
+			</table>
+		</fieldset>
+<br>
+		<fieldset class="fieldSet">
+			<legend class="legend_name">Job Details</legend>
+			<table align="center">
+				<tr>
+					<td class="name_all">Designation</td>
+					<td>:&nbsp;</td>
+					<td><textarea required></textarea></td>
+				</tr>
+
+				<tr>
+					<td class="name_all">Job Location</td>
+					<td>:&nbsp;</td>
+					<td>
+						<select>
+							<option selected>Rajkot</option>
+							<option>Bhavnagar</option>
+							<option>Junagadha</option>
+							<option>Baroda</option>
+							<option>Surat</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="name_all">Salary</td>
+					<td>:&nbsp;</td>
+					<td><input type="text" pattern="[0-9][5]" required></td>
+				</tr>
+			</table>
+		</fieldset>
+		<br>
+		
+			<table align="center">
+				<tr>
+					<td><input type="Submit" value="Submit" name="Submit" class="button_all"></td>
+					<td>&nbsp;</td>
+					<td><button class="button_all">Cancle</button></td>
+				</tr>
+			</table>
+	
+	</form>
+</body>
+</html>
