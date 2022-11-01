@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>CSS Layout 8</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .link a{
+                text-decoration: underline;
+                color: red;
+            }
+            .siteMap{
+                width: 98%;
+                height: auto;
+                text-align: right;
+            }
+            .siteMap a{
+                padding-right: 10px;
+            }
+            .nav-bar{
+                width: 98%;
+                height: auto;
+                padding: 20px;
+                padding-top: 15px;
+                background-color: lightgray;
+                font-size: 1.1em;
+                font-weight: bold;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            .nav-bar a{
+                padding-right: 10px;
+            }
+            .site-heading{
+                width: 98%;
+                margin-top: 0.5vh;
+                margin-left: 1%;
+                margin-right: 1%;
+                height: 25vh;
+                background-color: lightgray;
+                padding-left: 50px;
+                
+            }
+            #site-title{
+                font-size: 3em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .centerContent{
+                width: 98%;
+                margin-left: 1%;
+                margin-right: 1%;
+                padding: 10px;
+            }
+            hr{
+                width: 95%;
+            }
+            .cell{
+                width: 31%;
+                height: auto;
+                background-color: lightgray;
+                margin-right: 1%;
+                float: left;
+                padding: 10px;
+            }
+            .cell span{
+                font-size: 1.8em;
+                font-weight: bold;
+            }
+            .box{
+                width: 23%;
+            }
+            .box span{
+                font-size: 1.5em;
+            }
+            .footer{
+                width: 100%;
+                text-align: center;
+                margin: 25px;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="siteMap link">
+        <a href="#">LINKS >></a>
+        <a href="#">SITE MAP >></a>
+        <a href="#">CONTACT >></a>
+    </div>
+
+    <div class="nav-bar link">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="site-heading">
+        <span id="site-title">site title</span><br>
+        <span style="font-size: 1.3em;">fixed 3-column over 4-column layout</span>
+    </div>
+
+    <div class="centerContent">
+        <span style="font-size: 20px; font-weight:bold;">centerColumn</span><br>
+        sub heading
+        <br><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi minus, ad accusantium consectetur ipsum, repellat dolorem veniam praesentium similique deserunt dolore sunt quos ullam architecto laboriosam. Excepturi porro hic iste sapiente, quaerat quos ipsa, laudantium accusantium a voluptatem repellat pariatur necessitatibus cum ipsum repellendus incidunt quod aspernatur. Laudantium ipsa, error provident expedita quis deserunt hic. Delectus deleniti ipsum dignissimos. Sunt aliquid alias molestias qui magnam suscipit earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur unde odit possimus, nesciunt itaque repudiandae quae sunt corporis quos cumque facilis incidunt, nemo dolor blanditiis? Ratione totam error esse enim, tempore molestiae?
+    </div>
+
+    <br><hr><br>
+
+    <div class="cell" style="margin-left: 2%;">
+        <span>cell_1</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus quod sint minus perspiciatis deleniti minima accusantium maxime deserunt ab.</p>
+
+        <ul type="none">
+            <li class="link">
+                <a href="#">Link</a><br>
+                Date <br>
+                Lorem ipsum dolor sit amet. <br><br>
+            </li>
+            <li class="link">
+                <a href="#">Link</a><br>
+                Date <br>
+                Lorem ipsum dolor sit amet.
+            </li>
+        </ul>
+    </div>
+
+    <div class="cell">
+        <span>cell_2</span>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus deserunt accusamus quisquam ea saepe vitae neque laborum amet! Unde rerum ex officiis ea facere corrupti quasi aliquid nobis aspernatur provident!</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, consectetur, voluptates incidunt accusantium minus voluptatum, commodi laudantium fugiat voluptas vitae necessitatibus. Mollitia dolor sit repellendus placeat eos. Sapiente, eum aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, est? 
+        </p>
+
+        
+    </div>
+
+    <div class="cell">
+        <span>cell_3</span>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus deserunt accusamus quisquam ea saepe vitae neque laborum amet! Unde rerum ex officiis ea facere corrupti quasi aliquid nobis aspernatur provident!</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, consectetur, voluptates incidunt accusantium minus voluptatum, commodi laudantium fugiat voluptas vitae necessitatibus. Mollitia dolor sit repellendus placeat eos. Sapiente, eum aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, est? 
+        </p>
+    </div>
+    <div style="clear: both;"></div>
+    <br><hr><br>
+
+    <div class="cell box" style="margin-left: 2%;">
+        <span>box_1</span>
+        <p class="link">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus molestiae repellat obcaecati ab, libero hic. <br><br>&nbsp;&nbsp;&nbsp;
+            <a href="#">Link...</a>
+        </p>
+    </div>
+
+    <div class="cell box">
+        <span>box_2</span>
+        <p class="link">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus molestiae repellat obcaecati ab, libero hic. <br><br>&nbsp;&nbsp;&nbsp;
+            <a href="#">Link...</a>
+        </p>
+    </div>
+
+    <div class="cell box">
+        <span>box_3</span>
+        <p class="link">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus molestiae repellat obcaecati ab, libero hic. <br><br>&nbsp;&nbsp;&nbsp;
+            <a href="#">Link...</a>
+        </p>
+    </div>
+
+    <div class="cell box">
+        <span>box_4</span>
+        <p class="link">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus molestiae repellat obcaecati ab, libero hic. <br><br>&nbsp;&nbsp;&nbsp;
+            <a href="#">Link...</a>
+        </p>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="footer link">
+        Copyright, &copy; 2005-2006&nbsp;
+        <a href="#" style="border-right: 2px solid black; padding-right:5px;">Company Name</a>
+        <a href="#" style="padding-left:5px;">The CSS Tinderbox</a>
+    </div>
+</body>
+</html>

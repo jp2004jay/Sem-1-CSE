@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>CSS Layout 10</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            div{
+                float: left;
+            }
+            .header{
+                width: 100%;
+                height: 25vh;
+                background-color:rgb(226, 223, 223);
+                padding: 15px;
+                font-size: 1.5em;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .header span{
+                font-size: 2em;
+            }
+            .centerColumn{
+                width: 82%;
+                height: auto;
+                margin: 1%;
+            }
+            .centerColumn span{
+                font-size: 1.3em;
+                font-weight: bold;
+            }
+            .rightColumn{
+                width: 15%;
+                height: auto;
+                background-color: antiquewhite;
+                margin: 0px;
+                padding: 10px;
+                padding-bottom: 30px;
+            }
+            .innerContent{
+                width: 100%;
+                height: auto;
+                padding: 10px;
+                margin-left: 10px;
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+                background-color:rgb(226, 223, 223);
+            }
+        </style>
+    </head>
+<body>
+    <div class="header">
+        <span>header</span> <br>
+        fluid two-column layout (basic)
+    </div>
+    
+    <div class="rightColumn centerColumn">
+        <span>leftColumn</span><br>
+
+        &nbsp;&nbsp; Home <br>
+        &nbsp;&nbsp; About <br>
+        &nbsp;&nbsp; Gallery <br>
+        &nbsp;&nbsp; Contact <br>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia excepturi iusto aliquam incidunt eos fuga error, deleniti tempora modi reiciendis, praesentium delectus enim repellat consectetur sapiente maiores perspiciatis debitis accusantium veniam facilis repellendus. Laboriosam neque soluta ipsam eum rem itaque quasi quis minima ullam mollitia nesciunt quia ipsum, magnam molestias a qui animi dolores nobis sed!</p>
+
+        
+        XHTML <br>
+        CSS <br>
+        WCAG <br>
+        The CSS Tinderbox <br>
+    </div>
+
+    <div class="centerColumn">
+        <span>centerColumn</span><br>
+       
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ipsum qui ducimus provident, numquam totam reprehenderit ea quisquam eligendi neque sint laborum. Iste tenetur quaerat quasi perferendis quisquam quidem architecto? Placeat mollitia doloribus vitae perferendis at alias officiis corrupti id, aperiam ut dolorum corporis reiciendis beatae qui suscipit quod blanditiis ullam hic, amet inventore. Expedita atque, molestiae, unde ad odio veniam numquam totam officia, voluptatibus voluptas voluptate!
+        <br><br>
+        <span>Header 2</span><br>
+        Link Item
+        <ul>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item
+                <ul type="circle">
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="innerContent centerColumn">
+            <span>blockquote</span>
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aspernatur maiores mollitia harum quia ratione amet, est explicabo praesentium esse.
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>CSS Layout 6</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                padding: 50px;
+            }
+            div{
+                float: left;
+            }
+            .heading{
+                padding: 60px;
+                height: 30vh;
+                width: 100%;
+                color: white;
+                font-size: 20px;
+                background-color:rgba(0, 0, 0, 0.85);
+            }
+            .mainContent{
+                width: 100%;
+                height: auto;
+                border: 2px solid rgba(0, 0, 0, 0.85);
+                border-bottom: 0px;
+            }
+            .footer{
+                height: auto;
+                width: 100%;
+                padding: 25px;
+                text-align: center;
+                border: 2px solid rgba(0, 0, 0, 0.85);
+            }
+            .head-in-heading{
+                font-size: 56px;
+            }
+            .link-item{
+                width: 20%;
+                height: auto;
+            }
+            .content{
+                width: 80%;
+                height: auto;
+            }
+            .header{
+                font-size: 35px;
+            }
+            .content-item{
+                padding: 20px;
+                font-size: 20px;
+            }
+            .innerContent{
+                width: 100%;
+                height: auto;
+                background-color: rgb(208, 203, 203);
+                border: 2px solid rgb(106, 100, 100);
+            }
+            .footer-content a{
+                text-decoration: none;
+                border-left: 2px solid black;
+                padding: 5px;
+                color: red;
+            }
+            .footer-content{
+                padding: 10px;
+                font-size: 16px;
+                color: red;
+                text-decoration: underline;
+                font-weight: bold;
+
+            }
+            .border-none{
+                border-left: 0px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="heading">
+            <span class="head-in-heading">Site Title</span><br/>
+            fixed 1-column #2 layout (basic)
+        </div>
+
+        <div class="mainContent">
+            <div class="link-item content-item">
+                
+                    left Column <br>
+                    <a href="#">Link Item</a><br>
+                    <a href="#">Link Item</a><br>
+                    <a href="#">Link Item</a><br>
+                             
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum ratione odio totam, nihil esse debitis distinctio, quaerat perferendis, ipsam accusantium obcaecati! Laborum, qui. Expedita corrupti at odit obcaecati esse vel nemo quis ex tempore.</p>
+            </div>
+            <div class="content content-item" style="padding-top: 0px;">
+                <h2 class="header" style="padding-top: 0px;">centerColumn</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam itaque, assumenda atque accusantium qui explicabo nulla labore nostrum quaerat sint iure quis, quo error libero asperiores earum amet id laborum voluptas saepe? Quae eligendi et, accusantium at debitis doloribus quia inventore laudantium recusandae tempora exercitationem cupiditate a molestias quisquam eius perferendis, rerum ut esse quas alias eos? Vitae facere, accusamus hic est ad optio. Rem, est!
+                </p>
+                <h2 class="header">Header 2</h2>
+                <a href="#">Link Item</a>
+                <ul>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>
+                        List Item
+                            <ul>
+                                <li>List Item</li>
+                                <li>List Item</li>
+                            </ul>
+                    </li>
+                </ul>
+
+                <div class="innerContent content-item">
+                    <p>
+                        blockquote <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veniam dolorum quod, rem nostrum rerum unde quia perspiciatis illo. Molestias id necessitatibus ratione deserunt maiores perferendis ipsam hic architecto? Omnis.
+                    </p>
+                </div>
+                <div class="content-item">
+                    <p>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="footer-content"><a href="#" style="border: 0px;">XHTML</a></span>
+            <span class="footer-content"><a href="#">CSS</a></span>
+            <span class="footer-content"><a href="#">WCAG</a></span>
+            <span class="footer-content"><a href="#">The CSS Tinderbox</a></span>
+        </div>
+        <div class="content-item">
+            <br>
+        </div>
+    </body>
+</html>

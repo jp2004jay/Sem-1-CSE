@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>CSS Layout 13</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            div{
+                float: left;
+            }
+            .font-pro{
+                color: white;
+                text-align: center;
+                font-size: 2em;
+            }
+            .pad-had-foot{
+                text-align: left;
+                padding-top: 15px;
+                padding-left: 50px;
+            }
+            .pad-content{
+                padding-top: 20vh;
+            }
+
+            .header{
+                width: 100%;
+                height: 10vh;
+                background-color: cornflowerblue;
+                margin-bottom: 1vh;
+            }
+            .content{
+                width: 100%;
+                height: 75vh;
+                padding-left: 20%;
+                padding-right: 20%;
+            }
+            .footer{
+                width: 100%;
+                height: 10vh;
+                background-color:royalblue;
+                margin-top: 1vh;
+            }
+            .mainContent{
+                width: 69.5%;
+                margin-right: 1%;
+                height: 59%;
+                background-color: lightgreen;
+            }
+            .sideBar{
+                width: 29.5%;
+                height: 59%;
+                background-color: darkorchid;
+            }
+            .twin{
+                width: 49.5%;
+                height: 39%;
+                background-color: orange;
+                padding-top: 12vh;
+                margin-top: 1%;
+                margin-right: 1%;
+            }
+        </style>
+    </head>
+<body>
+    <div style="width: 96%; height: auto; border: 2px solid black; margin: 2%;">
+        <div class="header font-pro pad-had-foot">.header</div>
+
+        <div class="content">
+            <div class="mainContent font-pro pad-content">.main-content</div>
+            <div class="sideBar font-pro pad-content">.sidebar</div>
+            <div class="twin font-pro pad-content">.twin</div>
+            <div class="twin font-pro pad-content" style="margin-right: 0%;">.twin</div>
+        </div>
+
+        <div class="footer font-pro pad-had-foot">.footer</div>
+    </div>
+</body>
+</html>
