@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 20%;
+            height: 20vh;
+            background-color: aqua;
+            animation-name: reletedHeight;
+            animation-duration: 5s;
+
+        }
+       @keyframes reletedHeight{
+            25%{
+                background-color: yellow;
+                top: 0vh;
+                left: 40%;
+            }
+            50%{
+                background-color: blue;
+                top: 20vh;
+                left: 40%;
+            }
+            75%{
+                background-color: bisque;
+               top: 20vh;
+               left: 0%;
+            }
+            100%{
+                background-color: aqua;
+               top: 0vh;
+               left: 0%; 
+            }
+       }
+    </style>
+</head>
+<body>
+    <div class="div1">
+
+    </div>
+    
+</body>
+</html>
